@@ -1,5 +1,5 @@
 FROM python:3.11.0-alpine
-COPY . /app
+COPY . .
 WORKDIR /app
 RUN pip install -r requirements.txt
 ENTRYPOINT ["python"]
